@@ -12,10 +12,7 @@ export const Main = () => {
         fetch("https://script.google.com/macros/s/AKfycbxjX6Ch_uJkdfDNVs6isoceBmKM_5qlAdrief-Cis4ga0bsqVWpa3Z8A8pOQyIwcp5r/exec", {
             method: "POST",
             body: formData
-        }).then((response) => response.json()).then((result) => {
-            console.log(result)
         })
-        
     }
 
   return (
